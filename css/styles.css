@@ -67,8 +67,9 @@ body {
 }
 
 .logo h1 {
-
+  width: auto;
   font-family: 'berserk', 'Times New Roman', Times, serif;
+  transform: scaleY(1.5);
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -79,6 +80,7 @@ body {
 #logo-brand {
   width: 150px;
   height: auto;
+  margin-right: 2rem;
 }
 .login-page {
   height: 100vh;
