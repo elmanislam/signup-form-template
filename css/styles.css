@@ -12,7 +12,8 @@
   --color-red: rgb(142, 21, 11, 0.2);
   --color-red-full: rgb(142, 21, 11);
   --color-green: #27ab5e;
-  --color-blue: rgb(34, 84, 185);
+  --color-blue: rgb(56, 93, 178, 0.2);
+  --color-blue-full: rgb(56, 93, 178);
   color-scheme: dark;
 
 }
@@ -117,10 +118,10 @@ body {
 .form-content {
 
   width: 100%;
-  background-color: rgba(8, 0, 0, 0.4);
+  background-color: rgba(0, 3, 8, 0.4);
   display: flex;
   flex-flow: row wrap;
-  box-shadow: var(--color-red) 0px 8px 9px,var(--color-red) 0px -12px 30px, var(--color-red) 0px 4px 6px, var(--color-red) 0px 12px 13px, var(--color-red) 0px -3px 5px;
+  box-shadow: var(--color-blue) 0px 8px 9px,var(--color-blue) 0px -12px 30px, var(--color-blue) 0px 4px 6px, var(--color-blue) 0px 12px 13px, var(--color-blue) 0px -3px 5px;
 }
 
 h1, h2 {
@@ -134,7 +135,7 @@ input, label {
 input {
   border-radius: 0.5rem;
   background-color: #040303b6;
-  border: 3px solid var(--color-red);
+  border: 3px solid var(--color-blue);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   width: 80%;
@@ -180,7 +181,7 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--color-red-full);
+  color: var(--color-blue-full);
 }
 
 a:hover {
@@ -195,9 +196,9 @@ a:hover {
 .btn-create-account {
   align-items: center;
   background-color: transparent;
-  border: 0.2rem solid var(--color-red-full);
+  border: 0.2rem solid var(--color-blue-full);
   border-radius: 8px;
-  box-shadow: var(--color-red) 0 15px 30px -5px;
+  box-shadow: var(--color-blue) 0 15px 30px -5px;
   box-sizing: border-box;
   transform: 3s;
   display: flex;
@@ -219,7 +220,7 @@ a:hover {
 
 .btn-create-account:active,
 .btn-create-account:hover {
-  background-color: var(--color-red-full);
+  background-color: var(--color-blue-full);
 
 }
 
