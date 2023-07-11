@@ -19,7 +19,7 @@
 }
 
 body {
-  overflow: hidden;  
+    overflow: auto;
 
 }
 
@@ -110,7 +110,7 @@ body {
 
 .signup {
 
-  width: 100%;
+
 }
 
 #form-title {
@@ -121,7 +121,7 @@ body {
 
 .form-content {
 
-  width: 100%;
+
   background-color: rgba(0, 3, 8, 0.4);
   display: flex;
   flex-flow: row wrap;
@@ -242,7 +242,7 @@ a:hover {
 @media only screen and (max-width: 800px) {
 
   body {
-    overflow: default;
+    overflow: auto;
     display: flex;
     flex-flow: column nowrap;
   }
@@ -256,6 +256,7 @@ a:hover {
   .logo {
     height: 150px;
     transform: scaleY(0.8);
+    top: 50%;
 
 
   }
