@@ -20,6 +20,7 @@
 
 body {
   overflow: hidden;  
+
 }
 
 #login-splash {
@@ -66,19 +67,22 @@ body {
   top: 62.5%;
   background-color:rgba(0, 0, 0, 0.4);
   text-align: center;
-
+  height: clamp(150px, 20vh, 250px);
 
 
 }
 
 .logo h1 {
-  width: auto;
+  margin: 0rem;
+
   font-family: 'berserk', 'Times New Roman', Times, serif;
-  transform: scaleY(1.5);
-  font-size: 4rem;
+  transform: scaleY(1.2);
+  font-size: clamp(3rem, 3vw, 8rem);
   text-transform: uppercase;
   letter-spacing: .2rem;
   color: black;
+
+
 
 }
 
@@ -86,14 +90,14 @@ body {
   width: 150px;
   height: auto;
   margin-right: 2rem;
+
 }
 .login-page {
   height: 100vh;
   width: auto;
   background-color: black;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-flow: column nowrap;
   justify-content: space-evenly;
   align-items: flex-start;
 }
@@ -234,3 +238,29 @@ a:hover {
 }
 
 
+
+@media only screen and (max-width: 800px) {
+
+  body {
+    overflow: default;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  #login-splash {
+    width: 100vw;
+    height: 50vh;
+
+  }
+ 
+  .logo {
+    height: 150px;
+    transform: scaleY(0.8);
+
+
+  }
+  
+  #logo-brand {
+    width: 100px;
+  }
+}
